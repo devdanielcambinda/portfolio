@@ -4,4 +4,4 @@ export interface Project {
     url: string;
 }
 
-export const projects: Readonly<Project>[] = []
+export const projects: Readonly<Project>[] = [];
