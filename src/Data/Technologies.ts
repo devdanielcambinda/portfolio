@@ -4,6 +4,11 @@ export interface Technology {
     imageUrl?: string;
 }
 
+export const workflow: Readonly<Technology>[] = [
+    {name: "Git", whereILearned: "Bachelor's degree"},
+    {name: "Azure DevOps", whereILearned: "Internship"},
+]
+
 
 export const programmingLanguages: Readonly<Technology>[] = [
     {name: "HTML", whereILearned: "Bachelor's degree"},
@@ -29,6 +34,10 @@ export const frameworks: Readonly<Technology>[] = [
     {name: "Mongoose", whereILearned: "Udemy course"},
     {name: "Sequelize", whereILearned: "Self-taught"},
     {name: "TypeORM", whereILearned: "Udemy course"},
+    {name: "RxJS", whereILearned: "Udemy course and internship"},
+    {name: "Passport.js", whereILearned: "self-taught"},
+    {name: "Jest", whereILearned: "Udemy course"},
+    {name: "Playwright", whereILearned: "Internship"},
 ]
 
 export const databases: Readonly<Technology>[] = [
