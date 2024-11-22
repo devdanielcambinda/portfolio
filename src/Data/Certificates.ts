@@ -22,6 +22,12 @@ export const certificates: Readonly<Certificate>[] = [
         type: "Programming"
     },
     {
+        name: "SAP ABAP Overview",
+        description: "This certificate was awarded to me for successfully completing the SAP ABAP Overview Course, which provided foundational knowledge of SAP ABAP programming.",
+        url: "https://drive.google.com/file/d/1i8X6hbtAiGmVCo1BulJrOArqxTXVjUwO/view",
+        type: "Programming"
+    },
+    {
         name: "Dove Men + Care Portugal Rugby Youth Festival 2019",
         description: "The Portugal Rugby Youth Festival is a youth rugby tournament organized by Move Sports." +
             " Its goal is to provide a unique experience for young rugby players by bringing together athletes from various countries through this event.",
